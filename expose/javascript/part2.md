@@ -32,23 +32,29 @@
     D. student['Favorite Teacher'].name
     E. student.courseLoad[0]
 
-13. A. 32 
-    B. 1
-    C. 3
-    D. 3null
-    E. 4
-    F. 0
-    G. 3undefined
-    H. NaN
+13. A. 32 because + is used so string becomes numeric
+    B. 1 because - is useds o string becomes numeric
+    C. 3 because + is used and null becomes 0
+    D. 3null because null becomes "null" as string is concatenated
+    E. 4 because true becomes 1 so 3+1 =4
+    F. 0 becaue both false and 0 become null for arithmetic operations
+    G. 3undefined just like null, undefined becomes a string "undefined"
+    H. NaN undefined becomes NaN for numeric conversions
 
-14. A. true
-    B. false
-    C. true
-    D. false
-    E. false
-    F. true
+14. A. true  - JS converts '2' to number 2
+    B. false - '2' and '12' both get converted to numbers 2 and 12
+    C. true - both have the same value 2
+    D. false - same value but different types
+    E. false - true is 1 and 2 is not equal to 1
+    F. true - Boolean() converts 2 into tru
 
 15. == only checks the value but === checks the value and the data type.
     For example, 2=='2' would be true because both have the same value of 2. However, 2==='2' would be false since the types are different.
 
-16. 
+17. [2, 4, 6] 
+    This is because during every iteration, the callback calls doSomething function first which returns array[i]*2 and finally pushesh that onto the array.
+
+19. 1
+    4
+    3
+    2
