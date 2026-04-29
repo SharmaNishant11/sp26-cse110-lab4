@@ -1,0 +1,1 @@
+The bug was that the values of num 1 and num 2 were string instead of numbers. Hence, result stored "2" + "3" instead of 2+3.  
